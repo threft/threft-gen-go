@@ -1,1 +1,1 @@
-Umarshalls threft-json read from the stdin. Uses the tidm pacakage to unmarshall. Uses sub-package "gog" to actually generate the go code.
+Umarshalls threft-json read from the stdin. Uses the tidm pacakage to unmarshall. Uses sub-package "gog" to actually generate the go code. Code generated with this generator can be tested with github.com/threft/threft-gen-go-tests. Code design is also done in that repository (*/golden code).
