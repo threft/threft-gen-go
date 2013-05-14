@@ -2,7 +2,7 @@ package gen_go
 
 import (
 	"fmt"
-	"github.com/threft/tidm"
+	"github.com/threft/threft/tidm"
 )
 
 func GenerateGo(T *tidm.TIDM) {
