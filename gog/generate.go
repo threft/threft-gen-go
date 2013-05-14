@@ -1,4 +1,4 @@
-package gen_go
+package gog
 
 import (
 	"fmt"
