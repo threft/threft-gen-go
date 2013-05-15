@@ -2,9 +2,13 @@ package gog
 
 import (
 	"fmt"
+	"github.com/davecgh/go-spew/spew"
 	"github.com/threft/threft/tidm"
 )
 
-func GenerateGo(T *tidm.TIDM) {
-	fmt.Printf("%#v\n", T)
+func GenerateGo(t *tidm.TIDM) {
+	cs := spew.NewDefaultConfig()
+	cs.Indent = "    "
+	fmt.Println("Dumping TIDM")
+	cs.Dump(t)
 }
